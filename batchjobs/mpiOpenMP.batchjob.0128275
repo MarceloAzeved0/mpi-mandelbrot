@@ -1,0 +1,123 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad03
+
+Initial Time is Mon Jun 22 22:08:10 EDT 2020
+
+Directory is /home/pp12719/t2
+
+This jobs runs on the following nodes:
+grad03 grad06 grad05 grad04
+
+JOB_ID:
+128275
+
+NPOINTS: 500 | Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.58189511 seconds
+NPOINTS: 1000 | Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.57520509 seconds
+NPOINTS: 1500 | Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   0.84797311 seconds
+NPOINTS: 2000 | Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   1.55228305 seconds
+NPOINTS: 2500 | Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   2.30765915 seconds
+NPOINTS: 3000 | Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   2.92796397 seconds
+NPOINTS: 3500 | Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   3.96397495 seconds
+NPOINTS: 4000 | Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =   5.19643688 seconds
+NPOINTS: 4500 | Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =   6.75252295 seconds
+NPOINTS: 5000 | Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =   6.22556019 seconds
+\n--------------------------\n
+NPOINTS: 500 | Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.35234594 seconds
+NPOINTS: 1000 | Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.57658005 seconds
+NPOINTS: 1500 | Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   0.59597301 seconds
+NPOINTS: 2000 | Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   0.96525097 seconds
+NPOINTS: 2500 | Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   1.44668913 seconds
+NPOINTS: 3000 | Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   1.91197705 seconds
+NPOINTS: 3500 | Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   2.80552506 seconds
+NPOINTS: 4000 | Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =   3.50173998 seconds
+NPOINTS: 4500 | Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =   4.49664497 seconds
+NPOINTS: 5000 | Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =   4.16676211 seconds
+\n-------------------------\n
+NPOINTS: 500 | Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.36370397 seconds
+NPOINTS: 1000 | Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.60896707 seconds
+NPOINTS: 1500 | Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   0.45105696 seconds
+NPOINTS: 2000 | Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   0.82980585 seconds
+NPOINTS: 2500 | Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   1.08308196 seconds
+NPOINTS: 3000 | Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   1.63996100 seconds
+NPOINTS: 3500 | Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   2.14797115 seconds
+NPOINTS: 4000 | Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =   3.10797405 seconds
+NPOINTS: 4500 | Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =   3.22346592 seconds
+NPOINTS: 5000 | Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =   2.33350992 seconds
+\n-------------------------\n
+Final Time is Mon Jun 22 22:09:22 EDT 2020
+/var/spool/torque/mom_priv/jobs/128275.SC: line 30: unexpected EOF while looking for matching ``'
+/var/spool/torque/mom_priv/jobs/128275.SC: line 31: syntax error: unexpected end of file
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12719 on the batch nodes
+Doing node grad03
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad04
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad05
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad06
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:18:44 
+
+ -- MEMORY       = 145480kb 
+
+ -- VIRTUAL MEM  = 8970720kb 
+
+ -- ELAPSED TIME = 00:01:13 
+
