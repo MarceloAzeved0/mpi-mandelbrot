@@ -80,9 +80,6 @@ NPOINTS: 5000 | Area of Mandlebrot set =   1.50875573 +/-   0.00030175
 Time =   2.33350992 seconds
 \n-------------------------\n
 Final Time is Mon Jun 22 22:09:22 EDT 2020
-/var/spool/torque/mom_priv/jobs/128275.SC: line 30: unexpected EOF while looking for matching ``'
-/var/spool/torque/mom_priv/jobs/128275.SC: line 31: syntax error: unexpected end of file
-
 --------------------------------------
 Running PBS epilogue.user script
 
